@@ -29,10 +29,6 @@ public class UserController {
     
     @Autowired
     private UserService userService;
-
-    public UserController(UserRepository userRepository, UserService userService) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
     
     @PostMapping("/create")
     @ResponseStatus(HttpStatus.CREATED)
