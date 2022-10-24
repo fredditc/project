@@ -31,12 +31,12 @@ public class UserServiceTest {
     void setup(){
         
     }
-    
+    /*
     @Test
     void findUserById(Long id){
         
        
-    }
+    }*/
     
 }
  
